@@ -35,7 +35,7 @@ public class Db1 {
 				stmt.setString(1, u.name);
 				stmt.setString(2, u.email);
 				stmt.executeUpdate();
-				stmt.e
+
 			}
 
 			con.commit();
